@@ -2,7 +2,7 @@
 
 A stunning, interactive cocktail bar website built with React, Vite, and powered by GSAP animations. Experience smooth scroll animations, parallax effects, and immersive video reveals as you explore our premium cocktail menu.
 
-![Cocktail Website](public/readme/preview.png)
+![Cocktail Website](public/readme/work-9.png)
 
 ## ✨ Features
 
