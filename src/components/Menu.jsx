@@ -11,7 +11,7 @@ const Menu = () => {
     useGSAP(()=>{
          const parallaxTimeline =  gsap.timeline({
             scrollTrigger:{
-                trigger:"#cocktails",
+                trigger:"#menu",
                 start:'top 30%',
                 end :'bottom 80%',
                 scrub:true,
@@ -19,8 +19,8 @@ const Menu = () => {
         })
 
         parallaxTimeline
-        .from('#c-left-leaf',{x:-100 ,y :100})
-        .from('#c-right-leaf',{x:100 ,y :-100})
+        .from('#m-left-leaf',{x:-100 ,y :100})
+        .from('#m-right-leaf',{x:100 ,y :-100})
 
         gsap.fromTo('#title',{opacity:0},{opacity:1,duration:1});
         gsap.fromTo('.cocktail img',{opacity:0,xPercent:-100} ,{
